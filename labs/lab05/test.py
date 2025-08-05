@@ -21,6 +21,6 @@ while x or y <= 0 :
 if x<=0:
  print("y win")
 
-if y<=0
+if y<=0:
  print("x win")
 
