@@ -16,5 +16,11 @@ while x or y <= 0 :
  y = y - (x * xdamage)
 
  #y attack
- x = x - (y * Ydamage)
+ x = x - (y * ydamage)
+
+if x<=0:
+ print("y win")
+
+if y<=0
+ print("x win")
 
