@@ -42,4 +42,4 @@ from datetime import datetime, timedelta
 # Using imported functions directly (no module prefix needed)
 square_root = sqrt(25)
 power_result = pow(2, 8)
-random_choice = choice(['apple', 'banana', 'cherry'])hello
+random_choice = choice(['apple', 'banana', 'cherry'])
