@@ -21,3 +21,5 @@ has_submitted = False      # bool (boolean).
 
 # Special data type
 nothing = None             # NoneType (represents absence of value)
+
+print("Hello")
