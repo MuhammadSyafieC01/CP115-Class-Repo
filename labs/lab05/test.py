@@ -1,10 +1,6 @@
-print("Hello")
-import math,random
+import random
 
-test=random.randint(200,500)
-print(test)
+x = random.randint(1000,5000)
+y = random.randint(1000,5000)
+print(x,y)
 
-x=0
-while x<=5:
- x=x+1
- print(x)
