@@ -17,4 +17,4 @@ upper_name = name.upper()
 lower_name = name.lower()
 length_name = len(name)
 
-squar = math.sqrt(total_score)
+squar = int(math.sqrt(total_score))
