@@ -20,6 +20,7 @@ print(f"17 // 5 = {result5}")
 print(f"17 % 5 = {result6}")
 print(f"3 ** 4 = {result7}") """
 
+"""
 # Test division - always returns float
 division = 10 / 2
 print(f"10 / 2 = {division} (type: {type(division)})")
@@ -34,4 +35,12 @@ print(f"17 % 5 = {modulus} (type: {type(modulus)})")
 
 # Test exponentiation - returns int when both operands are int
 power = 2 ** 3
-print(f"2 ** 3 = {power} (type: {type(power)})")
+print(f"2 ** 3 = {power} (type: {type(power)})")"""
+
+# Same numbers, different brackets = different results
+without_brackets = 5 + 3 * 2 ** 2
+with_brackets = (5 + 3) * 2 ** 2
+different_brackets = 5 + (3 * 2) ** 2
+print(f"5 + 3 * 2 ** 2 = {without_brackets}")
+print(f"(5 + 3) * 2 ** 2 = {with_brackets}")
+print(f"5 + (3 * 2) ** 2 = {different_brackets}")
