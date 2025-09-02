@@ -5,10 +5,10 @@ gpa = float(input("Enter GPA (0.0-4.0): "))
 credit_hours = int(input("Enter credit hours: "))
 
 # TODO your code here
-if gpa < 2.0:
-    classification = "Academic Probation"
 if credit_hours < 12:
     classification = "Part-time students"
+if gpa < 2.0:
+    classification = "Academic Probation"
 if gpa >= 2.0:
     classification = "Good Standing"
 if gpa >= 3.5 and credit_hours >= 12:
