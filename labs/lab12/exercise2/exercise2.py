@@ -8,7 +8,11 @@ while score<=100 and score>=0:
     score_count += 1
     total_score += score
     score = float(input())
-average_score = total_score/score_count
+
+if score_count > 0:
+    average_score = total_score/score_count
+else:
+    average_score = 0
 
 print(score_count)
 print(total_score)
